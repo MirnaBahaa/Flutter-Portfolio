@@ -1,65 +1,22 @@
-# FinTracker - Expense Tracker App
+# Complete Mobile Banking Template(Dark+Light Theme) built with ♥️ with Flutter 🔥
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Inspired by [Twinkle Creative](https://dribbble.com/shots/16369224-Banking-Mobile-App).
 
-FinTracker is a Flutter application that helps you track your expenses and manage category budgets. It provides a user-friendly interface to enter and categorize your expenses, giving you insights into your spending habits and helping you stay within your budget.
+<p float="center">
+  <img src="https://github.com/martinoyovo/flutter-banking-app/blob/main/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2013%20-%202022-01-18%20at%2003.22.23.png" width="190"/>
+  <img src="https://raw.githubusercontent.com/martinoyovo/flutter-banking-app/main/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2012%20Pro%20Max%20-%202021-09-13%20at%2019.12.02.png" width="190"/>
+  <img src="https://github.com/martinoyovo/flutter-banking-app/blob/main/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2013%20-%202022-01-18%20at%2003.22.11.png" width="190"/>
+  <img src="https://raw.githubusercontent.com/martinoyovo/flutter-banking-app/main/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2012%20Pro%20Max%20-%202021-10-11%20at%2019.09.37.png" width="190"/>
+  <img src="https://github.com/martinoyovo/flutter-banking-app/blob/main/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2013%20-%202022-01-18%20at%2003.22.27.png" width="190"/>
+  <img src="https://raw.githubusercontent.com/martinoyovo/flutter-banking-app/main/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2012%20Pro%20Max%20-%202021-10-11%20at%2019.09.30.png" width="190"/>
+  <img src="https://github.com/martinoyovo/flutter-banking-app/blob/main/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2013%20-%202022-01-18%20at%2003.31.07.png" width="190"/>
+  <img src="https://raw.githubusercontent.com/martinoyovo/flutter-banking-app/main/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2012%20Pro%20Max%20-%202021-10-11%20at%2019.09.48.png" width="190"/>
+  <img src="https://raw.githubusercontent.com/martinoyovo/flutter-banking-app/main/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2012%20Pro%20Max%20-%202021-10-11%20at%2019.09.52.png" width="190"/>
+</p>
 
-![FinTracker Screenshot](screenshots/fintracker_screenshot.jpg)
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-## Features
-
-- Track and record your expenses conveniently.
-- Categorize your expenses into different categories.
-- Set monthly budgets for each category and monitor your spending.
-- View detailed expense reports and statistics.
-- Easily search and filter your expenses.
-- Export expense data for further analysis.
-
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/nafishahmeddev/fintracker.git
-```
-
-2. Change to the project directory:
-
-```bash
-cd fintracker
-```
-
-3. Install dependencies:
-
-```bash
-flutter pub get
-```
-
-4. Run the app:
-
-```bash
-flutter run
-```
-
-## Usage
-
-- Upon launching the app, you will be presented with the home screen.
-- Click on the "+" button to add a new expense.
-- Enter the expense details, including the amount, category, and description.
-- Click "Save" to add the expense.
-- Navigate to the "Categories" tab to manage your expense categories and budgets.
-- Set monthly budgets for each category by clicking on the category and entering the desired amount.
-
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
-
-## Acknowledgements
-
-- This app was built using the Flutter framework. Learn more about Flutter at [flutter.dev](https://flutter.dev).
-- The design and inspiration for this app came from various expense tracker apps available in the market.
-- Special thanks to the open-source community for their valuable contributions.
-
-
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
