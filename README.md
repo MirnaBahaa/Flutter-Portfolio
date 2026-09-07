@@ -6,8 +6,7 @@ Dart SDK Version 2.17.0 or greater.
 Flutter SDK Version 3.0.0 or greater.
 
 ### Design System for better accuracy
-<img src="https://github.com/Widle-Studio/Grocery-App/blob/Grocery-App/Grocery%20App/grocery-app.png">
-
+<img src="https://raw.githubusercontent.com/Widle-Studio/Grocery-App/Grocery-App/Grocery%20App/grocery-app.png" alt="Grocery App Screenshot">
 
 ### App Navigations
 
