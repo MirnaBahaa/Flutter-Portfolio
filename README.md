@@ -2,17 +2,6 @@
 
 Become a financial contributor - <img alt="open collective badge" src="https://opencollective.com/grocery-platform/tiers/backers/badge.svg?label=backer&color=brightgreen" />
 
-
-### Table of Contents
-- [System Requirements](#system-requirements)
-- [Figma design guidelines for better accuracy](#figma-design-guideline-for-better-accuracy)
-- [App Navigations](#app-navigations)
-- [Project Structure](#project-structure)
-- [How you can do code formatting?](#how-you-can-do-code-formatting)
-- [How you can improve the readability of code?](#how-you-can-improve-the-readability-of-code)
-- [Libraries and tools used](#libraries-and-tools-used)
-- [Support](#support)
-
 ### System Requirements
 
 Dart SDK Version 2.17.0 or greater.
