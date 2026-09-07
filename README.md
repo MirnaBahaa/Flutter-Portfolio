@@ -1,65 +1,82 @@
-# FinTracker - Expense Tracker App
+# grocery_app
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Become a financial contributor - <img alt="open collective badge" src="https://opencollective.com/grocery-platform/tiers/backers/badge.svg?label=backer&color=brightgreen" />
 
-FinTracker is a Flutter application that helps you track your expenses and manage category budgets. It provides a user-friendly interface to enter and categorize your expenses, giving you insights into your spending habits and helping you stay within your budget.
 
-![FinTracker Screenshot](screenshots/fintracker_screenshot.jpg)
+### Table of Contents
+- [System Requirements](#system-requirements)
+- [Figma design guidelines for better accuracy](#figma-design-guideline-for-better-accuracy)
+- [App Navigations](#app-navigations)
+- [Project Structure](#project-structure)
+- [How you can do code formatting?](#how-you-can-do-code-formatting)
+- [How you can improve the readability of code?](#how-you-can-improve-the-readability-of-code)
+- [Libraries and tools used](#libraries-and-tools-used)
+- [Support](#support)
 
-## Features
+### System Requirements
 
-- Track and record your expenses conveniently.
-- Categorize your expenses into different categories.
-- Set monthly budgets for each category and monitor your spending.
-- View detailed expense reports and statistics.
-- Easily search and filter your expenses.
-- Export expense data for further analysis.
+Dart SDK Version 2.17.0 or greater.
+Flutter SDK Version 3.0.0 or greater.
 
-## Installation
+### Design System for better accuracy
+<img src="https://github.com/Widle-Studio/Grocery-App/blob/Grocery-App/Grocery%20App/grocery-app.png" alt="Flutter Grocery Shopping App Video Animation">
 
-1. Clone the repository:
 
-```bash
-git clone https://github.com/nafishahmeddev/fintracker.git
+### App Navigations
+
+Check your app's UI from the AppNavigation screen of your app.
+
+### Project Structure
+
+After successful build, your application structure should look like this:
+
+```
+.
+├── android                         - contains files and folders required for running the application on an Android operating system.
+├── assets                          - contains all images and fonts of your application.
+├── ios                             - contains files required by the application to run the dart code on iOS platforms.
+├── lib                             - Most important folder in the project, used to write most of the Dart code.
+    ├── main.dart                   - starting point of the application
+    ├── core
+    │   ├── app_export.dart         - contains commonly used file imports 
+    │   ├── constants               - contains all constants classes
+    │   ├── errors                  - contains error handling classes                  
+    │   ├── network                 - contains network related classes
+    │   └── utils                   - contains common files and utilities of project
+    ├── data
+    │   ├── apiClient               - contains API calling methods 
+    │   ├── models                  - contains request/response models 
+    │   └── repository              - network repository
+    ├── localization                - contains localization classes
+    ├── presentation                - contains all screens and screen controllers
+    │   └── screens                 - contains all screens
+    ├── routes                      - contains all the routes of application
+    └── theme                       - contains app theme and decoration classes
+    └── widgets                     - contains all custom widget classes
 ```
 
-2. Change to the project directory:
+### How you can do code formatting?
 
-```bash
-cd fintracker
-```
+- if your code is not formatted then run following command in your terminal to format code
+  ```
+  dart format .
+  ```
 
-3. Install dependencies:
+### How you can improve the readability of code?
 
-```bash
-flutter pub get
-```
+Resolve the errors and warnings that are shown in the application.
 
-4. Run the app:
+### Libraries and tools used
 
-```bash
-flutter run
-```
+- get - State management
+  https://pub.dev/packages/get
+- connectivity_plus - For status of network connectivity
+  https://pub.dev/packages/connectivity_plus
+- shared_preferences - Provide persistent storage for simple data
+  https://pub.dev/packages/shared_preferences
+- cached_network_image - For storing internet image into cache
+  https://pub.dev/packages/cached_network_image
+    
+### Support
 
-## Usage
-
-- Upon launching the app, you will be presented with the home screen.
-- Click on the "+" button to add a new expense.
-- Enter the expense details, including the amount, category, and description.
-- Click "Save" to add the expense.
-- Navigate to the "Categories" tab to manage your expense categories and budgets.
-- Set monthly budgets for each category by clicking on the category and entering the desired amount.
-
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
-
-## Acknowledgements
-
-- This app was built using the Flutter framework. Learn more about Flutter at [flutter.dev](https://flutter.dev).
-- The design and inspiration for this app came from various expense tracker apps available in the market.
-- Special thanks to the open-source community for their valuable contributions.
-
-
+Connect to Widle Studio Team.
