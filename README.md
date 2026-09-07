@@ -57,16 +57,11 @@ flutter run
 - Navigate to the "Categories" tab to manage your expense categories and budgets.
 - Set monthly budgets for each category by clicking on the category and entering the desired amount.
 
-## Roadmap
-Check out our detailed [roadmap](https://github.com/nafishahmeddev/fintracker/blob/master/roadmap.md) for planned features and updates!
 
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ## Acknowledgements
 
@@ -74,6 +69,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - The design and inspiration for this app came from various expense tracker apps available in the market.
 - Special thanks to the open-source community for their valuable contributions.
 
-## Contact
 
-For any questions or inquiries, please email us at [hello@nafish.me](mailto:hello@nafish.me).
