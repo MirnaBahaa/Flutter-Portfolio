@@ -27,6 +27,3 @@ Star⭐ the repo if you like what you see😉.
 
 </p>
 
-
-**Charly Keleb
-CharlyKeleb** [![Twitter Follow](https://img.shields.io/twitter/follow/Charlykeleb.svg?style=social)](https://twitter.com/Charlykeleb)
